@@ -25,9 +25,89 @@
         below to add them to your wishlist
       </p>
     </div>
-    <div class="row">
-      <div class="left-form-destination"></div>
-      <div class="right-form-destination-detials"></div>
+    <div class="row row-two-forms">
+      <div class="col-md-3 left-form-destination">
+        <form>
+          <div class="mb-4">
+            <label for="DestinationName1" class="form-label"
+              >Destination name</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="DestinationName1"
+              placeholder="Enter the name of the destination"
+            />
+            <div class="mb-3">
+              <label for="Location" class="form-label">Location</label>
+              <input
+                type="text"
+                class="form-control"
+                id="Location"
+                placeholder="Where is it located?"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="Photo" class="form-label">Photo</label>
+              <input
+                type="text"
+                class="form-control"
+                id="DestinationPhoto"
+                placeholder="Enter an image url of the place"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="Description" class="form-label">Description</label>
+              <textarea
+                class="form-control"
+                id="Description"
+                rows="2"
+                placeholder="Where is it located?"
+              ></textarea>
+            </div>
+          </div>
+          <button type="add" class="btn btn-primary">Add to List</button>
+        </form>
+      </div>
+      <div class="right-form-destination-detials">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"
+              >Destination name</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text">
+              We'll never share your email with anyone else.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"
+              >Password</label
+            >
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
+          <div class="mb-3 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="exampleCheck1"
+            />
+            <label class="form-check-label" for="exampleCheck1"
+              >Description</label
+            >
+          </div>
+          <button type="add" class="btn btn-primary">Add to List</button>
+        </form>
+      </div>
     </div>
   </body>
 </html>

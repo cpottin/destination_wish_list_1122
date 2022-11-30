@@ -3,16 +3,19 @@
     background-color: #E9ECEF;
     border: 5px solid greenyellow;
 }
-
+.row-two-forms{
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-content: center;
+}
 .left-form-destination{
     border: 5px solid red;
-    width: 50vw;
-    justify-items: left;
+    
 }
 
 .right-form-destination-detials{
     border: 5px solid blue;
-    width: 50vw;
-    justify-items: right;
+  
+   
 }
 
